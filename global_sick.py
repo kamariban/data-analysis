@@ -37,6 +37,6 @@ df = pd.DataFrame(data)
 
 
 
-print(df_clean[df_clean["Country_Name_Clean"].isnull()])
+
    
    
