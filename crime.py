@@ -10,6 +10,13 @@ except FileNotFoundError:
 except Exception as e:
     print(f"An error occurred: {e}")
     
-print(data.head())
+#print(data.head())
 
-data.info()
+
+#print(data.shape) (1004894, 28)
+
+#crucial to check for missing values in the dataset
+
+print(data.isnull().sum())
+
+#print(data.nunique()) 
