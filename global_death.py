@@ -3,7 +3,6 @@ import pycountry
 
 file_path = "/Users/kamari/Documents/project_info/IHME_GBD_2010_MORTALITY_AGE_SPECIFIC_BY_COUNTRY_1970_2010.csv"
 
-
 try:
     data = pd.read_csv(file_path)
 except FileNotFoundError:
@@ -20,6 +19,8 @@ df = pd.DataFrame(data)
 
 # check for data types
 ##print(df.dtypes)
+
+print(df.info())
 
 # look at unique values
 ##print(df["Country Code"].unique())
