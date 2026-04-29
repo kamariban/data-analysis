@@ -12,10 +12,8 @@ except Exception as e:
     
 #print(data.head())
 
-
 #print(data.shape) (1004894, 28)
 
-#crucial to check for missing values in the dataset
 
 print(data.isnull().sum())
 
