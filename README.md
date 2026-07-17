@@ -9,7 +9,7 @@ Some are more complete than others since this repo also tracks my learning proce
 
 Projects may include:
 - Data cleaning and validation
-- Exploratory data analysis (EDA)
+- Data analysis 
 - Working with real-world messy datasets
 - Basic visualizations
 - SQL queries and data extraction
